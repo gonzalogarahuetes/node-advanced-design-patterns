@@ -2,7 +2,7 @@ const Customer = require("./Customer");
 const Employee = require("./Employee");
 
 const personFactory = (name, funds = 0, type, employer) => {
-    if(type === "employee") {
+    if (type === "employee") {
         return new Employee(name, funds, employer);
     }
 
