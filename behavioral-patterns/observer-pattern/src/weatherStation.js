@@ -1,5 +1,5 @@
 class WeatherStation {
-    constructor(observers) {
+    constructor() {
         this.temperature = null;
         this.observers = [];
     }
